@@ -27,11 +27,11 @@ Luego streamlit run app.py
 ## Ejemplos
 ### Pregunta
 ¿Cuál es el objetivo del onboarding?
-#### Respuesta
+### Respuesta
 De acuerdo con el documento onboarding.pdf, el objetivo de la primera semana es tener el entorno configurado y conocer el equipo. Además, el plan de 30/60/90 días se define como una guía de rampaje progresiva, donde se espera alcanzar la productividad plena aproximadamente al tercer mes, dependiendo del nivel de seniority.
 ### Pregunta
 ¿Qué tecnologías utiliza el equipo backend?
-#### Respuesta
+### Respuesta
 Basado en los documentos proporcionados, el equipo utiliza las siguientes tecnologías y herramientas:
 Spring: Específicamente ApplicationEventPublisher para gestionar comunicaciones asíncronas y el patrón Observer.
 AWS SES y SQS: Utilizados por el microservicio de integración con servicios de notificación.
