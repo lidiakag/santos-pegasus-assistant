@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+pypdf
+faiss-cpu
+python-dotenv
+langchain-google-genai
+rank-bm25
