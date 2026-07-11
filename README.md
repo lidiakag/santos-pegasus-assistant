@@ -19,23 +19,10 @@ Agente inteligente desarrollado con Python, LangChain, Gemini, Streamlit y técn
 - PyPDF
 - dotenv
 
-## Estructura
-alura-agente/
-│
-├── documentos/
-├── agente.py
-├── app.py
-├── requirements.txt
-└── README.md
-
 ## Cómo ejecutar
 pip install -r requirements.txt
-Crear un archivo
-.env
-con
-GOOGLE_API_KEY=TU_API_KEY
-Luego
-streamlit run app.py
+Crear un archivo .env con GOOGLE_API_KEY=TU_API_KEY
+Luego streamlit run app.py
 
 ## Ejemplos
 ### Pregunta
@@ -55,19 +42,4 @@ Pipelines CI/CD: Para la automatización de despliegues.
 Estrategias de despliegue: Blue-Green y Canary Releases.
 
 ## Arquitectura
-Usuario
-     │
-     ▼
-Streamlit
-     │
-     ▼
-Retriever (BM25)
-     │
-     ▼
-PDF
-     │
-     ▼
-Gemini
-     │
-     ▼
-Respuesta
+Usuario -> Streamlit -> Retriever (BM25) -> PDF -> Gemini -> Respuesta
