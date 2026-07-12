@@ -54,4 +54,4 @@ http://146.181.49.217:8501
 
 ### Evidencia
 
-![Aplicación desplegada en OCI](capturas/deploy-oci.png)
+[Aplicación desplegada en OCI](capturas/deploy-oci.png)
