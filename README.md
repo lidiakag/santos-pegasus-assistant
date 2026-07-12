@@ -43,3 +43,15 @@ Estrategias de despliegue: Blue-Green y Canary Releases.
 
 ## Arquitectura
 Usuario -> Streamlit -> Retriever (BM25) -> PDF -> Gemini -> Respuesta
+
+## Deploy en Oracle Cloud Infrastructure
+
+La aplicación fue desplegada en una instancia Compute de Oracle Cloud Infrastructure y se encuentra disponible públicamente.
+
+### Enlace público
+
+http://146.181.49.217:8501
+
+### Evidencia
+
+![Aplicación desplegada en OCI](capturas/deploy-oci.png)
